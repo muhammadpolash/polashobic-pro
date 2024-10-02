@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polabic Learn Arabic</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Polabic Learn Arabic (PLA)</h1>
+      <button id="loginButton">Login</button>
+      <div id="modeToggle">
+        <button id="darkModeButton">Dark Mode</button>
+        <button id="lightModeButton">Light Mode</button>
+        <button id="readingModeButton">Reading Mode</button>
+      </div>
+    </header>
+
+    <!-- Article Section -->
+    <section id="articleSection">
+      <h2>Upload Arabic Learning Articles</h2>
+      <textarea id="articleInput" rows="5" placeholder="Paste your article here..."></textarea>
+      <button id="submitArticle">Submit Article</button>
+      <div id="articleContainer"></div>
+    </section>
+
+    <!-- Exam Section -->
+    <section id="examSection">
+      <h2>Take an Exam</h2>
+      <div id="questionsContainer"></div>
+      <button id="submitExam">Submit Exam</button>
+    </section>
+
+    <!-- Certificate Section -->
+    <section id="certificateSection">
+      <h2>Certificate</h2>
+      <div id="certificateContainer"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
